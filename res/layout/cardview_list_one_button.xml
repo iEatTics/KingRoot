@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/card_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/card_header" android:background="@drawable/selector_card_style_hover" android:layout_width="fill_parent" android:layout_height="72.0dip" android:weightSum="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/card_header_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:src="@drawable/cve_icon_danger" />
+            <TextView android:textSize="16.0sp" android:textColor="#fff53a5d" android:id="@id/card_header_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="hello" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff99aeb9" android:id="@id/card_more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cve_detail_page_title" />
+            <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/common_show_arrow_right" />
+        </LinearLayout>
+        <View android:background="#ffdce5eb" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <android.support.v7.widget.RecyclerView android:id="@id/card_desc_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        <View android:background="#ffdce5eb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" />
+        <Button android:textSize="@dimen/common_btn_text_size" android:textColor="#ff395cf3" android:gravity="center" android:id="@id/card_bottom_button" android:background="@drawable/selector_card_button" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/security_protect_cve_card_button_desc" />
+    </LinearLayout>
+    <ViewStub android:id="@id/stub_hidden_buttons" android:layout="@layout/cardview_hidden_buttons" android:inflatedId="@id/hidden_buttons" android:layout_width="96.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-4.0dip" android:layout_marginRight="@dimen/list_item_padding_left" />
+</LinearLayout>

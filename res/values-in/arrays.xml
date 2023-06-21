@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kr4_root_tips">
+        <item>Perangkat dapat boot ulang selama proses Root, hal ini normal</item>
+        <item>Merigester Kingroot sebagai modul sistem dapat meningkatkan stabilitas</item>
+        <item>Untuk garansi perangkat, silakan hapus otoritas Root sepenuhnya terlebih dahulu</item>
+        <item>Setelah Root, Anda dapat meng-uninstal apl yang telah diinstal sebelumnya</item>
+        <item>Root diperlukan untuk memblok autostart</item>
+        <item>Setelah melakukan Root, Anda dapat mengoptimalkan perangkat dengan \"KingRoot\"</item>
+    </string-array>
+</resources>

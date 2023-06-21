@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/operation_bar" android:background="@drawable/operation_bar_drawable" android:layout_width="fill_parent" android:layout_height="@dimen/list_footer_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/operation_first_btn" android:layout_width="fill_parent" android:layout_height="@dimen/uninstall_height" android:layout_marginLeft="@dimen/uninstall_margin" android:layout_marginRight="@dimen/uninstall_margin" android:layout_centerVertical="true" style="@style/root_blue_shadow_button_style" />
+</RelativeLayout>

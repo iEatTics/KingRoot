@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sothree="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <ImageView android:id="@id/bg_iv_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/skin_main_page_bg" android:scaleType="centerCrop" skin:enable="true" />
+    <include layout="@layout/template_common_status_bar_padding" />
+    <com.kingroot.common.uilib.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_up_panel_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" sothree:umanoPanelHeight="@dimen/common_template_sliding_up_panel_height" sothree:umanoShadowHeight="0.0dip" sothree:umanoParallaxOffsetFactor="1.0" sothree:umanoDragView="@id/dragView" sothree:umanoScrollableView="@id/tool_box_list_view" sothree:umanoOverlay="true" sothree:umanoEnableCover="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="fill_parent" android:layout_height="@dimen/common_template_title_bar_height_with_shadow" />
+            <include layout="@layout/template_common_container" />
+        </LinearLayout>
+        <com.kingroot.kinguser.toolbox.view.ToolBoxView android:id="@id/tool_box_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginTop="@dimen/common_template_title_bar_height" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding" android:layout_marginBottom="@dimen/page_left_right_with_shadow_padding" />
+    </com.kingroot.common.uilib.SlidingUpPanelLayout>
+    <include android:id="@id/title_bar_wrapper" layout="@layout/title_bar_with_shadow" />
+</RelativeLayout>

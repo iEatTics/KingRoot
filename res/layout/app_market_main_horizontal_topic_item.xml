@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/transparent" android:paddingTop="@dimen/app_market_main_item_top_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/horizontal_rv" android:layout_width="fill_parent" android:layout_height="@dimen/apps_market_topic_item_h" />
+    <View android:id="@id/divider" android:background="@color/grey_6" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="@dimen/app_market_main_item_top_bottom_padding" android:layout_below="@id/horizontal_rv" />
+</RelativeLayout>

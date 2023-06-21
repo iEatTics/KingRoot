@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black_translucence" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.kingcore.uilib.ProgressWhell android:textColor="@color/white_1" android:layout_gravity="center" android:id="@id/loading_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/share_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/outside_area" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:background="@color/global_background_color2" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <RelativeLayout android:id="@id/title_layout" style="@style/new_dialog_title_layout_style">
+                <TextView android:id="@id/title" android:text="@string/share_login_title" style="@style/new_dialog_main_text_style" />
+            </RelativeLayout>
+            <LinearLayout android:id="@id/main_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_min_width" style="@style/new_dialog_content_layout_style">
+                <TextView android:id="@id/item_content" android:text="@string/share_login_content" android:lineSpacingExtra="4.0dip" style="@style/new_dialog_content_text_style" />
+            </LinearLayout>
+            <View android:background="@color/white_9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                <RelativeLayout android:id="@id/button_left" android:background="@drawable/common_rect_button_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <ImageView android:layout_gravity="center" android:background="@drawable/share_login_wechat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/image" />
+                        <TextView android:textSize="@dimen/common_text" android:textColor="@color/main_title_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/share_login_wechat_btn" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:background="@color/white_9" android:layout_width="0.5dip" android:layout_height="wrap_content" />
+                <RelativeLayout android:id="@id/button_right" android:background="@drawable/common_rect_button_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <ImageView android:layout_gravity="center" android:background="@drawable/share_login_qq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/image" />
+                        <TextView android:textSize="@dimen/common_text" android:textColor="@color/main_title_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/share_login_qq_btn" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

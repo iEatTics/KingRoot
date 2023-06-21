@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/tool_box_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/main_title_text" android:textColor="@color/main_title_text" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tool_box_title" />
+</LinearLayout>

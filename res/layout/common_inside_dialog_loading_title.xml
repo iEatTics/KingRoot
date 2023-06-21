@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_layout" style="@style/new_dialog_title_layout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kingcore.uilib.ProgressWhell android:textColor="@color/blue_1" android:id="@id/title_icon" android:layout_width="@dimen/new_dialog_icon_size" android:layout_height="@dimen/new_dialog_icon_size" android:layout_centerHorizontal="true" />
+    <TextView android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/title_icon" android:layout_centerHorizontal="true" style="@style/new_dialog_main_text_style" />
+</RelativeLayout>

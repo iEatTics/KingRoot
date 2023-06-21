@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notify_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/notify_install_ku_success_view" android:scaleType="fitXY" android:contentDescription="@string/attribute_content_description_image" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/notify_title_size" android:textStyle="bold" android:textColor="@color/main_title_text" android:ellipsize="end" android:layout_gravity="center" android:id="@id/notify_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notify_ku_installed_success_title" android:maxLines="1" />
+        <TextView android:textSize="@dimen/notify_content_size" android:textColor="@color/blue_2" android:layout_gravity="center" android:id="@id/notify_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/notify_ku_installed_success_content_format" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kingcore.uilib.LoadingCircle android:id="@id/game_title_tick_icon" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@id/icon_game_box_optimize" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/icon_game_box_white" />
+        <ImageView android:layout_gravity="center" android:id="@id/icon_game_box_optimize_ok" android:visibility="invisible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/game_box_optimize_ok" />
+    </com.kingcore.uilib.LoadingCircle>
+    <LinearLayout android:orientation="vertical" android:id="@id/text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/game_title_tick_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="20.0sp" android:textColor="@color/gamebox_title_text" android:id="@id/game_title_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gamebox_title_view" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <com.kingcore.uilib.TypeWriterTextView android:textSize="@dimen/common_text" android:textColor="@color/gamebox_title_text" android:id="@id/game_title_sub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/common_text" android:textColor="@color/gamebox_title_text" android:id="@id/game_title_sub_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gamebox_title_optimize_degree_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

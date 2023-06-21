@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/adapt_retry_btn" android:layout_marginTop="@dimen/root_adapt_wx_margin_bottom" android:text="@string/root_again" android:layout_centerHorizontal="true" style="@style/root_blue_shadow_button_style" />
+    <Button android:id="@id/adapt_wx_btn" android:layout_marginTop="@dimen/root_adapt_wx_margin_bottom" android:text="@string/subscribe_wx_account" android:layout_below="@id/adapt_retry_btn" android:layout_centerHorizontal="true" style="@style/root_white_shadow_button_style" />
+    <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_adapt_wx_margin_bottom" android:text="@string/kr4_follow" android:layout_below="@id/adapt_wx_btn" android:layout_centerHorizontal="true" />
+</RelativeLayout>

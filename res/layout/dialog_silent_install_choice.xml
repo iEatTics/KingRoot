@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title_layout" layout="@layout/common_outside_dialog_title_template" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minWidth="@dimen/dialog_min_width" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/caller_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toLeftOf="@id/tip_icon_panel">
+                <ImageView android:id="@id/caller_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/unknown_app" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black_1" android:id="@id/caller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_tile_icon_marginRight_km" android:text="unknown" android:singleLine="true" android:maxLength="7" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/tip_icon_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/silent_install_tips" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/blue_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_tile_icon_marginRight_km" android:text="@string/silent_install_dialog_installing_text" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/tip_icon_panel">
+                <ImageView android:id="@id/installer_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/unknown_app" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/black_1" android:id="@id/installer_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_tile_icon_marginRight_km" android:text="unknown" android:singleLine="true" android:maxLength="7" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="@dimen/common_dialog_title_template_icon_margin" android:text="@string/silent_install_dialog_tips" />
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="24.0dip">
+            <CheckBox android:id="@id/checkbox_remember" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:button="@drawable/selector_checkbox" />
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/text_primary_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/silent_install_dialog_checkbox_tips" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/common_dialog_bottom_template" />
+</LinearLayout>

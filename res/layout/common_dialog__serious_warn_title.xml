@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_layout" style="@style/new_dialog_title_layout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/title_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/popwindow_waring_red" android:layout_centerHorizontal="true" android:contentDescription="@string/image" />
+    <TextView android:textSize="@dimen/dialog_title_text_size" android:textStyle="bold" android:textColor="@color/dialog_red_text" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="title" android:layout_below="@id/title_icon" android:layout_centerHorizontal="true" />
+</RelativeLayout>

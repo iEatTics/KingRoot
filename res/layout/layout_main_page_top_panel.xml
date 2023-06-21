@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/top_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kingroot.kinguser.examination.base.ExaminationCircleProgressView android:id="@id/progress_download_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/head_circle_bad" android:gravity="center_horizontal" android:id="@id/abnormal_status_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="10.0dip" android:layout_centerInParent="true" />
+    <TextView android:textSize="80.0sp" android:textColor="@color/head_circle_good" android:id="@id/score_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" android:layout_centerInParent="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/grey_12" android:id="@id/score_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/examination_score_tip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/global_primary_black_text_color" android:id="@id/phase_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/score_text" android:layout_centerHorizontal="true" />
+    <Button android:textSize="14.0sp" android:textColor="@color/head_button_text_normal" android:id="@id/btn_opt" android:background="@drawable/selector_round_button_blue" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/examination_opt_now" />
+</RelativeLayout>

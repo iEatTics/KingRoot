@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/outside_title_layout" android:background="@drawable/blue_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/dialog_kr_logo" android:layout_alignParentRight="true" android:contentDescription="@string/image" />
+    <LinearLayout android:id="@id/title_layout" android:layout_centerVertical="true" style="@style/new_dialog_title_layout_style">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/title_icon" android:layout_width="@dimen/new_dialog_icon_size" android:layout_height="@dimen/new_dialog_icon_size" android:layout_marginRight="@dimen/common_dialog_title_template_icon_marginRight" android:src="@drawable/default_dialog_app" android:contentDescription="@string/image" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="@color/white_1" android:id="@id/title" style="@style/new_dialog_main_text_style" />
+            <TextView android:textColor="@color/white_1" android:id="@id/secondary_title" android:visibility="gone" android:drawablePadding="@dimen/risk_icon_padding" style="@style/new_dialog_sub_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

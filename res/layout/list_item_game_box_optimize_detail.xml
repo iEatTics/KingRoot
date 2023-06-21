@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/game_box_list_item_optimize_detail_h"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_primary_size" android:textColor="@color/gamebox_title_text" android:id="@id/done_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/text_primary_size" android:textColor="@color/gamebox_title_text" android:ellipsize="end" android:id="@id/detail_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/done_text" android:layout_alignParentLeft="true" />
+</RelativeLayout>

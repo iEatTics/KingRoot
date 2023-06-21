@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/common_list_item_left_padding" android:paddingRight="@dimen/common_list_item_right_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/card_view_item_inner"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/icon" android:scaleType="center" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/right_arrow" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/common_show_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_list_item_content_left_margin" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true">
+        <TextView android:id="@id/main_text" android:text="@android:string/unknownName" style="@style/list_item_content_main_text" />
+        <TextView android:id="@id/sub_text" android:text="@android:string/unknownName" style="@style/list_item_content_sub_text" />
+    </LinearLayout>
+</RelativeLayout>

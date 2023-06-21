@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_dialog_title_template" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content_group" android:background="@color/dialog_background" android:paddingLeft="@dimen/new_dialog_line_margin" android:paddingRight="@dimen/new_dialog_line_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_dialog_line_margin">
+        <com.kingroot.kinguser.view.TextProgressBarView android:gravity="center" android:id="@id/progressbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/tip" android:visibility="gone" android:layout_marginTop="10.0dip" style="@style/new_dialog_sub_text_style" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tip_warn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_dialog_bound_margin">
+            <ImageView android:background="@drawable/icon_warning" android:layout_width="15.0dip" android:layout_height="15.0dip" android:contentDescription="@string/image" />
+            <TextView android:id="@id/warn_content" android:layout_marginBottom="@dimen/new_dialog_bound_margin" android:text="@string/unroot_dialog_warn_content" style="@style/new_dialog_sub_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@id/mid_button" android:focusable="false" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/new_dialog_bound_margin" android:layout_marginTop="@dimen/new_dialog_line_margin" android:layout_marginRight="@dimen/new_dialog_bound_margin" android:layout_marginBottom="@dimen/new_dialog_bound_margin" android:text="@string/dialog_btn_cancel" android:layout_weight="0.0" style="@style/new_dialog_btn_style" />
+    <LinearLayout android:id="@id/linearLayoutButtons" android:visibility="gone" style="@style/new_dialog_btn_layout_style">
+        <Button android:id="@id/button_left" android:text="@string/dialog_btn_cancel" style="@style/new_dialog_btn_style" />
+        <View android:background="@null" android:layout_width="@dimen/new_dialog_bound_margin" android:layout_height="fill_parent" />
+        <Button android:id="@id/button_right" android:text="@string/version_update_btn_pause" style="@style/new_dialog_btn_style" />
+    </LinearLayout>
+</LinearLayout>

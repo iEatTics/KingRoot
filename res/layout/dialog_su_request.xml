@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:keepScreenOn="true" style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_outside_dialog_title_template" />
+    <include layout="@layout/common_su_request_dialog_content" />
+    <include layout="@layout/common_dialog_bottom_template" />
+</LinearLayout>

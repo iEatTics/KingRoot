@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/linearLayoutButtons" style="@style/new_dialog_bottom_layout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button_left" android:focusable="true" android:nextFocusRight="@id/button_right" android:text="@string/dialog_btn_cancel" style="@style/new_dialog_btn_style" />
+    <Button android:id="@id/button_right" android:focusable="true" android:nextFocusLeft="@id/button_left" android:text="@string/dialog_btn_ok" style="@style/new_dialog_btn_style" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_start_disabled_event_count_string">
+        <item quantity="other">Memblokir %1$d situasi</item>
+    </plurals>
+    <plurals name="auto_start_enabled_event_count_string">
+        <item quantity="other">Membolehkan %1$d situasi</item>
+    </plurals>
+    <plurals name="examination_module_showing_auto_optimize_module_wrapper">
+        <item quantity="other">%1$d ditingkatkan</item>
+    </plurals>
+    <plurals name="examination_module_showing_enhance_efficiency">
+        <item quantity="other">Linkungan Operasi(%1$d item)</item>
+    </plurals>
+    <plurals name="examination_module_showing_root_security_mgr">
+        <item quantity="other">Otorisasi Root telah diperkuat(%1$d items)</item>
+    </plurals>
+    <plurals name="examination_module_showing_sys_defence">
+        <item quantity="other">Penguatan sistem (%1$d item)</item>
+    </plurals>
+    <plurals name="examination_status_manually_manage">
+        <item quantity="other">%1$d masalah yang perlu perhatian</item>
+    </plurals>
+</resources>

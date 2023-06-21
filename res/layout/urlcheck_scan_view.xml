@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#ff395cf3" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/url_scan_logo" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/urlcheck_scan_banner_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/mask" android:background="@drawable/shape_gradient_blue" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

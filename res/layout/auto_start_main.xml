@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/global_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.kingroot.common.uilib.PagerSlidingTabStrip android:id="@id/autostart_tabs" android:background="@color/global_background_color2" android:layout_width="fill_parent" android:layout_height="72.0dip" app1:pstsIndicatorColor="@color/auto_start_slider" app1:pstsUnderlineColor="@color/global_background_color2" app1:pstsDividerColor="#00000000" app1:pstsIndicatorHeight="2.0dip" app1:pstsUnderlineHeight="2.0dip" app1:pstsTabBackground="@drawable/setting_background_tab" app1:pstsShouldExpand="true" app1:pstsTextAllCaps="false" xmlns:app1="http://schemas.android.com/apk/res-auto" />
+        <View android:background="@color/divide_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:id="@id/view_cover" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

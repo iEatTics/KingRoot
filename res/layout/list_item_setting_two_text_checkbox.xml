@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/list_item_style_km"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:switcher="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/setting_list_item_common_text_size" android:textColor="@color/text_primary_color" android:id="@id/tv_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title" />
+        <TextView android:textSize="@dimen/setting_list_item_common_secondary_text_size" android:textColor="@color/blue_2" android:id="@id/tv_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title" />
+    </LinearLayout>
+    <com.kingroot.common.uilib.QSwitchCheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="fill_parent" switcher:background_on="@color/switcher_on_bg" switcher:background_off="@color/switcher_off_bg" switcher:thumb="@drawable/selector_switcher" />
+</LinearLayout>

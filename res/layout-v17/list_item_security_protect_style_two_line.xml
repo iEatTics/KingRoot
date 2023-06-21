@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="78.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/list_item_container" android:background="@drawable/selector_card_style_hover" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/item_icon" android:layout_width="@dimen/common_list_item_icon_size" android:layout_height="@dimen/common_list_item_icon_size" android:layout_marginLeft="16.0dip" android:src="@drawable/engine_black" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="64.0dip" android:weightSum="1.0" android:layout_toRightOf="@id/item_icon">
+                <TextView android:textSize="@dimen/common_list_item_content_main_text_size" android:textColor="@color/main_title_text" android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="New Text" android:layout_weight="0.5" android:layout_toRightOf="@id/item_icon" android:layout_alignTop="@id/item_icon" />
+                <TextView android:textSize="@dimen/common_list_item_content_sub_text_size" android:textColor="@color/sub_title_text" android:id="@id/cv_list_desc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="New Text" android:layout_weight="0.5" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/common_show_arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

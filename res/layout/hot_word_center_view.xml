@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/hot_word_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/item_more_word" style="@style/RecyclerView_No_Scroll">
+        <LinearLayout android:orientation="vertical" android:id="@id/item_all_redHot_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+            <RelativeLayout android:id="@id/item_head_redHot_layout" android:background="@color/global_background_color2" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <TextView android:textSize="@dimen/main_title_text" android:textColor="@color/main_title_text" android:gravity="center_vertical" android:id="@id/item_hot_software_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/app_search_hot_search_soft" android:layout_alignParentLeft="true" />
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView android:id="@id/app_search_hot_word_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textColor="@color/black_1" android:id="@id/item_more_word" android:background="@drawable/hot_word_white_selector" android:text="@string/app_search_change_hot_word" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/common_button_style" />
+</RelativeLayout>

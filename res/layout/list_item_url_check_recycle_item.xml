@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/list_item_url_check_log" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_1" android:gravity="center" android:id="@id/item_trust" android:background="@color/green_1" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="@string/security_protect_trust" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_1" android:gravity="center" android:id="@id/item_clear" android:background="@color/red_1" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="@string/dialog_btn_clear" />
+</LinearLayout>

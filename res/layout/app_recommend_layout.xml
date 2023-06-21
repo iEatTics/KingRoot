@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/app_detail_recommend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/global_background_color" android:padding="@dimen/app_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/common_text" android:textColor="@color/main_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_download_task_recommend_title" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/app_task_recommend_list" android:background="@color/global_background_color2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RecyclerView_No_Scroll" />
+</LinearLayout>

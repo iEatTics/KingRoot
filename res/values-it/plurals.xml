@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_start_disabled_event_count_string">
+        <item quantity="other">%1$d situazioni bloccate</item>
+        <item quantity="one">%1$d situazione bloccata</item>
+    </plurals>
+    <plurals name="auto_start_enabled_event_count_string">
+        <item quantity="other">%1$d situazioni consentite</item>
+        <item quantity="one">%1$d situazione consentita</item>
+    </plurals>
+    <plurals name="examination_module_showing_auto_optimize_module_wrapper">
+        <item quantity="other">%1$d migliorati</item>
+        <item quantity="one">%1$d migliorato</item>
+    </plurals>
+    <plurals name="examination_module_showing_enhance_efficiency">
+        <item quantity="other">Ambiente di tempo di esecuzione(%1$d elementi)</item>
+        <item quantity="one">Ambiente di tempo di esecuzione(%1$d elemento)</item>
+    </plurals>
+    <plurals name="examination_module_showing_root_security_mgr">
+        <item quantity="other">Autenticazione di Root migliorata(%1$d elementi)</item>
+        <item quantity="one">Autenticazione di Root migliorata(%1$d elemento)</item>
+    </plurals>
+    <plurals name="examination_module_showing_sys_defence">
+        <item quantity="other">Rafforzamento del sistema(%1$d elementi)</item>
+        <item quantity="one">Rafforzamento del sistema(%1$d elemento)</item>
+    </plurals>
+    <plurals name="examination_status_manually_manage">
+        <item quantity="other">%1$d problemi richiedono attenzione</item>
+        <item quantity="one">%1$d problema richiede attenzione</item>
+    </plurals>
+</resources>

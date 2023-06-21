@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_start_disabled_event_count_string">
+        <item quantity="other">已禁止%1$d個自啟行爲</item>
+    </plurals>
+    <plurals name="auto_start_enabled_event_count_string">
+        <item quantity="other">發現%1$d個自啟行爲</item>
+    </plurals>
+    <plurals name="examination_module_showing_auto_optimize_module_wrapper">
+        <item quantity="other">安全優化（%1$d項）</item>
+    </plurals>
+    <plurals name="examination_module_showing_enhance_efficiency">
+        <item quantity="other">運行狀態保護（%1$d項）</item>
+    </plurals>
+    <plurals name="examination_module_showing_root_security_mgr">
+        <item quantity="other">Root高級防護（%1$d項）</item>
+    </plurals>
+    <plurals name="examination_module_showing_sys_defence">
+        <item quantity="other">系統底層防禦（%1$d項）</item>
+    </plurals>
+    <plurals name="examination_status_manually_manage">
+        <item quantity="other">可手動管理%1$d項</item>
+    </plurals>
+</resources>

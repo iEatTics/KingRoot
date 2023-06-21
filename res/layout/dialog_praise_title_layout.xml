@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/outside_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/close_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pop_close" android:layout_alignParentRight="true" />
+    <RelativeLayout android:id="@id/title_background" android:background="@drawable/blue_bg_2" android:layout_width="fill_parent" android:layout_height="192.0dip" android:layout_marginTop="60.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="252.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/title_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pop_5star_day" android:contentDescription="@string/image" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white_1" android:gravity="center_horizontal" android:id="@id/title" android:layout_marginTop="8.0dip" android:text="@string/praise_dialog_safe_title" style="@style/new_dialog_main_text_style" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/white_1" android:id="@id/secondary_title" android:layout_marginLeft="18.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="18.0dip" android:text="@string/praise_dialog_safe_content_text" style="@style/new_dialog_sub_text_style" />
+    </LinearLayout>
+</RelativeLayout>

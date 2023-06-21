@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include style="@style/common_orientation_divider" layout="@layout/common_divider" />
+    <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/apps_market_main_app_item_left_right_padding" android:layout_width="fill_parent" style="@style/list_item_style_km">
+        <TextView android:textSize="@dimen/common_text" android:textColor="@color/main_title_text" android:id="@id/item_title" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/App_Market_App_Name_Text_Style" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ImageView android:id="@id/item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/virulence_w_s" android:scaleType="center" />
+            <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:ellipsize="end" android:id="@id/item_description1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <include style="@style/common_orientation_divider" layout="@layout/common_divider" />
+</LinearLayout>

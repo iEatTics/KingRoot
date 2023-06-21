@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/start_game_blue_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/start_game_mask" />
+    <ImageView android:id="@id/start_game_white_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gamebox_booster_toast" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/start_game_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/gamebox_booster_bg_base" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/start_game_finish_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/gamebox_title_tick" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/white" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/gamebox_booster_finished" />
+    </LinearLayout>
+</RelativeLayout>

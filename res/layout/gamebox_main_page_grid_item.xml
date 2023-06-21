@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/gamebox_grid_app_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@id/gamebox_grid_app_icon" android:layout_width="@dimen/app_list_item_icon_big" android:layout_height="@dimen/app_list_item_icon_big" android:src="@drawable/default_app" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/gamebox_grid_app_remove_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:clickable="false" android:layout_width="@dimen/app_list_item_icon_big" android:layout_height="@dimen/app_list_item_icon_big" android:src="@drawable/gamebox_remove_grey_bg" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/gamebox_grid_app_remove_icon" android:clickable="false" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/gamebox_grid_view_remove_icon" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/gamebox_title_text" android:gravity="center" android:id="@id/gamebox_grid_app_name" android:layout_width="70.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" android:layout_below="@id/gamebox_grid_app_icon_layout" android:layout_centerHorizontal="true" />
+</RelativeLayout>

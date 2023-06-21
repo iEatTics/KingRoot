@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kingroot.common.uilib.banner.BannerView android:id="@id/banner_guide_content" android:layout_width="fill_parent" android:layout_height="@dimen/app_market_main_banner_h" app:banner_pointContainerBackground="@android:color/transparent" app:banner_pointDrawable="@drawable/bga_banner_selector_point_hollow" app:banner_pointTopBottomMargin="5.0dip" app:banner_pointAutoPlayAble="true" app:banner_pageChangeDuration="1000" app:banner_transitionEffect="alpha" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

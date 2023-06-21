@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/guide_top_pic" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/guide_text_panel" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginTop="150.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="36.0sp" android:textColor="@color/black_1" android:gravity="center" android:id="@id/guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/black_1" android:gravity="center" android:id="@id/guide_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+    </LinearLayout>
+    <Button android:id="@id/guide_btn" android:background="@drawable/guide_page_button_background" android:layout_width="160.0dip" android:layout_height="48.0dip" android:layout_marginTop="@dimen/page_guide_single_type_two_btn_margin_top" android:layout_marginBottom="16.0dip" android:text="@string/guide_view_start_btn" android:layout_above="@id/protocol_panel" android:layout_centerHorizontal="true" style="@style/root_blue_shadow_button_style" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/protocol_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <CheckBox android:id="@id/protocol_checkbox" android:background="@drawable/checkbox_selector_3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="2.0dip" android:checked="true" android:button="@null" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/black_1" android:id="@id/protocol_text" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/protocol_text" />
+    </LinearLayout>
+</RelativeLayout>

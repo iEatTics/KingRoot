@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/slider_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/uninstall_background_color" android:layout_width="fill_parent" android:layout_height="48.0dip" android:baselineAligned="true">
+        <RelativeLayout android:id="@id/tab_left" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/tab_text_first" android:background="@drawable/setting_background_tab" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/uninstall_tab_text" />
+            <View android:id="@id/tab_line_first" android:background="@color/blue_1" android:layout_width="wrap_content" style="@style/main_title2_view_style" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/tab_right" android:focusable="true" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:id="@id/tab_text_second" android:background="@drawable/setting_background_tab" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/uninstall_tab_text" />
+            <View android:id="@id/tab_line_second" android:background="@color/blue_1" android:visibility="gone" android:layout_width="wrap_content" style="@style/main_title2_view_style" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

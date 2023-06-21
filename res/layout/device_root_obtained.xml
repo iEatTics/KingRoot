@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/common_text" android:textColor="@color/sub_title_text" android:id="@id/root_state_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr4_get_root_success" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/grey_2" android:id="@id/phone_brand_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/root_state_title" android:layout_alignLeft="@id/root_state_title" />
+    <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/grey_2" android:id="@id/android_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_upper_text_view_margin_gap" android:layout_below="@id/phone_brand_text" android:layout_alignLeft="@id/root_state_title" />
+    <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/grey_2" android:id="@id/root_state_notice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_upper_text_view_margin_gap" android:layout_below="@id/android_version" android:layout_alignLeft="@id/root_state_title" />
+</RelativeLayout>

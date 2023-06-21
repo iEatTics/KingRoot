@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/close" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/common_dialog_title_template_close_top" android:layout_marginRight="@dimen/common_dialog_title_template_close_right" android:src="@drawable/selector_dialog_top_close_btn" android:scaleType="centerInside" android:layout_alignParentRight="true" android:contentDescription="@string/image" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_layout" android:background="@color/dialog_title_layout_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/title_icon" android:layout_width="@dimen/new_dialog_icon_size" android:layout_height="@dimen/new_dialog_icon_size" android:layout_marginRight="@dimen/common_dialog_title_template_icon_marginRight" android:src="@drawable/dialog_title_warn" android:contentDescription="@string/image" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/title" style="@style/new_dialog_main_text_style" />
+            <TextView android:id="@id/secondary_title" android:visibility="gone" android:drawablePadding="@dimen/risk_icon_padding" style="@style/new_dialog_sub_text_style" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/new_tag" android:visibility="gone" android:layout_width="@dimen/new_tag_width" android:layout_height="@dimen/new_tag_height" android:layout_marginLeft="6.0dip" android:src="@drawable/icon_new" android:contentDescription="@string/attribute_content_description_image" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/list_item_style_transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_icon" android:layout_marginRight="21.0dip" android:contentDescription="@string/attribute_content_description_image" style="@style/list_item_icon_style_km" />
+    <com.kingcore.uilib.TextRoundCornerProgressBar android:id="@id/item_button" android:background="@drawable/gamebox_button_recommend_list_obtain_selector" android:layout_width="@dimen/game_box_recommend_list_item_btn_w" android:layout_height="@dimen/game_box_recommend_list_item_btn_h" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:rcProgress="0.0" app:rcMax="100.0" app:rcRadius="3.0dip" app:rcProgressColor="@color/green_6" app:rcBackgroundColor="@color/transparent" app:rcTextProgressColor="@color/white" app:rcTextProgressSize="14.0sp" app:rcTextProgressMargin="10.0dip" app:rcTextProgress="@string/gamebox_recommend_list_item_btn" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_toLeftOf="@id/item_button" android:layout_toRightOf="@id/item_icon">
+        <TextView android:textSize="@dimen/text_primary_size" android:textColor="@color/white" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/text_primary_size" android:textColor="@color/white" android:ellipsize="end" android:id="@id/item_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

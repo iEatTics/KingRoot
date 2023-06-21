@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/template_common_bg" />
+    <include layout="@layout/template_common_status_bar_padding" />
+    <View android:id="@id/placeholder" android:background="@color/global_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/container" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/placeholder" />
+    <include layout="@layout/title_bar_with_shadow" />
+</RelativeLayout>

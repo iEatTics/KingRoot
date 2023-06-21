@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/card_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:minHeight="46.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/risk_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/virulence_red_cir" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/common_list_item_content_main_text_size" android:textColor="#fff53a5d" android:layout_gravity="center_vertical" android:id="@id/risk_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="hello" android:layout_toRightOf="@id/risk_icon" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="#ffdce5eb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/list_item_icon_margin_right" android:layout_marginRight="@dimen/list_item_icon_margin_right" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/url_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/urlcheck_detail_page_sub_title1" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/blue_1" android:id="@id/url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="00000" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/time_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/urlcheck_detail_page_sub_title2" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff99aeb9" android:id="@id/time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="00000" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/risk_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/urlcheck_detail_page_sub_title3" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff99aeb9" android:id="@id/risk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="00000" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/open_btn_layout" android:layout_width="fill_parent" android:layout_height="@dimen/list_footer_bar_height" android:layout_marginTop="4.0dip" android:layout_alignParentBottom="true">
+        <Button android:id="@id/intercept_btn" android:layout_width="150.0dip" android:layout_height="48.0dip" android:layout_marginLeft="@dimen/uninstall_margin" android:text="@string/urlcheck_risk_page_intercept" android:layout_alignParentLeft="true" style="@style/root_blue_shadow_button_style" />
+        <Button android:id="@id/trust_btn" android:layout_width="150.0dip" android:layout_height="48.0dip" android:layout_marginRight="@dimen/uninstall_margin" android:text="@string/security_protect_trust" android:layout_alignParentRight="true" style="@style/root_white_shadow_button_style" />
+    </RelativeLayout>
+</LinearLayout>

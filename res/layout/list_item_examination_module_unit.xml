@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/common_list_item_left_padding" android:paddingRight="@dimen/common_list_item_left_padding" android:layout_width="fill_parent" android:layout_height="@dimen/common_card_expand_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/list_item_icon_dot" android:layout_width="@dimen/common_list_item_icon_size" android:layout_height="@dimen/common_list_item_icon_size" android:layout_marginRight="@dimen/common_list_item_left_padding" />
+    <TextView android:textSize="@dimen/common_list_item_content_main_text_size" android:textColor="@color/main_title_text" android:id="@id/itemView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@android:string/unknownName" android:singleLine="true" android:layout_weight="1.0" />
+    <ImageView android:id="@id/status" android:background="@drawable/common_tick" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/root_bottom_top_part_margin" android:layout_marginRight="@dimen/root_bottom_top_part_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/left_line" android:background="@color/white_3" android:layout_width="fill_parent" android:layout_height="@dimen/root_bottom_top_part_line" android:layout_toLeftOf="@id/top_part_title_layout" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/top_part_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/phone_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/root_phone_icon" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/common_text" android:textColor="@color/sub_title_text" android:id="@id/top_part_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/root_success_rating_pc" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:id="@id/right_line" android:background="@color/white_3" android:layout_width="fill_parent" android:layout_height="@dimen/root_bottom_top_part_line" android:layout_toRightOf="@id/top_part_title_layout" android:layout_centerVertical="true" />
+</RelativeLayout>

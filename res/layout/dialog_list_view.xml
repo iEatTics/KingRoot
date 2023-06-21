@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:minWidth="@dimen/dialog_min_width" style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/item_title" android:layout_marginLeft="@dimen/new_dialog_line_margin" android:layout_marginTop="@dimen/new_dialog_line_margin" android:layout_marginBottom="@dimen/new_dialog_line_margin" android:text="@string/app_name" style="@style/new_dialog_main_text_style" />
+    <ListView android:id="@id/listView" android:visibility="visible" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_dialog_line_margin" android:layout_marginRight="@dimen/new_dialog_line_margin" android:scrollingCache="false" android:divider="@drawable/shape_list_view_divider" />
+    <Button android:id="@id/button" android:focusable="false" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/new_dialog_bound_margin" android:layout_marginTop="@dimen/new_dialog_line_margin" android:layout_marginRight="@dimen/new_dialog_bound_margin" android:layout_marginBottom="@dimen/new_dialog_bound_margin" android:text="@string/dialog_btn_cancel" android:layout_weight="0.0" style="@style/new_dialog_btn_style" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/selector_card_style_hover" android:paddingLeft="11.0dip" android:paddingRight="@dimen/common_list_item_right_padding" android:descendantFocusability="blocksDescendants" android:layout_height="72.0dip" style="@style/list_item_style"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/item_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="11.0dip" android:contentDescription="@string/image" style="@style/list_item_icon_style" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_3" android:textColor="@color/black_1" android:id="@id/item_title" style="@style/list_item_primary_title_style" />
+                <ImageView android:id="@id/item_new_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_text_secondary_marginTop" android:src="@drawable/icon_new" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size_4" android:textColor="@color/blue_2" android:id="@id/item_description" style="@style/list_item_secondary_title_style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_3" android:textColor="@color/blue_1" android:id="@id/item_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tool_box_item_open_now" style="@style/list_item_primary_title_style" />
+            <com.kingcore.uilib.TextProgressBar android:id="@id/rectangle_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:progress="0" style="?android:attr/progressBarStyleHorizontal" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/margin_divider" android:background="#b3dce5eb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="60.0dip" android:layout_marginTop="8.0dip" android:layout_alignParentBottom="true" />
+    <View android:id="@id/full_divider" android:background="@color/divide_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="8.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

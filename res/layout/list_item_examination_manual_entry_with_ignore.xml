@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/skin_exam_result_item_normal_selector" style="@style/list_item_two_lines_style" skin:enable="true">
+            <ImageView android:id="@id/item_icon" android:layout_width="@dimen/common_list_item_icon_size" android:layout_height="@dimen/common_list_item_icon_size" android:layout_marginRight="@dimen/list_item_icon_margin_right" style="@style/list_item_icon_style" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_icon_margin_right" android:layout_weight="1.0">
+                <TextView android:id="@id/item_title" android:layout_width="fill_parent" style="@style/list_item_colorful_primary_title_style" />
+                <TextView android:id="@id/item_title_desc" style="@style/list_item_colorful_sub_title_style" />
+            </LinearLayout>
+            <TextView android:id="@id/score_text" style="@style/exam_item_score_text" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_right_white" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/examination_manual_entry_ignore_text" android:gravity="center" android:id="@id/item_ignore" android:background="@color/transparent" android:layout_width="80.0dip" android:layout_height="fill_parent" android:text="@string/examination_manual_entry_ignore" />
+</LinearLayout>

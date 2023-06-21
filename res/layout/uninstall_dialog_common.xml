@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/new_dialog_line_margin" android:layout_marginBottom="@dimen/new_dialog_line_margin" android:src="@drawable/new_dialog_dialog_warning" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" style="@style/common_dialog_title_style_km">
+        <ImageView android:id="@id/icon_title" android:background="@drawable/failture_uninstall_popwindow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dialog_tile_icon_marginRight_km" android:contentDescription="@string/image" />
+        <TextView android:textSize="@dimen/text_title_size" android:id="@id/item_title" style="@style/text_primary_style_km" />
+    </LinearLayout>
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/new_dialog_line_margin" android:layout_marginRight="@dimen/new_dialog_line_margin" android:layout_weight="1.0">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="normal" android:id="@id/item_content" style="@style/new_dialog_main_text_style" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/linearLayoutButtons" style="@style/new_dialog_btn_layout_style">
+        <Button android:id="@id/button_left" android:text="@string/dialog_btn_cancel" style="@style/new_dialog_btn_style" />
+        <ImageView android:id="@id/button_line" android:background="@null" android:layout_width="@dimen/new_dialog_bound_margin" android:layout_height="fill_parent" android:contentDescription="@string/image" />
+        <Button android:id="@id/button_right" android:text="@string/dialog_btn_ok" style="@style/new_dialog_btn_style" />
+    </LinearLayout>
+</LinearLayout>

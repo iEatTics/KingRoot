@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_part" layout="@layout/root_bottom_top" />
+    <TextView android:textSize="@dimen/root_main_text" android:textColor="@color/main_title_text" android:id="@id/phone_brand_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_bottom_top_part_margin_top" android:layout_below="@id/top_part" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/root_main_text" android:textColor="@color/main_title_text" android:id="@id/android_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_upper_text_view_margin_gap" android:layout_below="@id/phone_brand_text" android:layout_alignLeft="@id/phone_brand_text" />
+</RelativeLayout>

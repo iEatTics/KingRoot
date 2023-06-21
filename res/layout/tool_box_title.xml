@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/common_template_sliding_up_panel_height">
+        <View android:id="@id/view" android:background="@color/divide_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_up" />
+            <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/text_size_4" android:textColor="@color/black_1" android:id="@id/more_tool_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/tool_box_title" />
+                <ImageView android:id="@id/new_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/red_dot_shape" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.kingroot.kinguser.toolbox.view.ToolBoxListView android:id="@id/tool_box_list_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</merge>

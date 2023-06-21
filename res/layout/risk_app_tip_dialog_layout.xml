@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_primary_size" android:textColor="@color/app_tag_risk_color" android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_bound_margin" android:layout_marginRight="@dimen/dialog_bound_margin" android:text="@android:string/unknownName" android:drawablePadding="@dimen/risk_icon_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

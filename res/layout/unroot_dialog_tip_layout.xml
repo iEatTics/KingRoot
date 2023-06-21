@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/new_dialog_content_layout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/text_primary_color" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unroot_dialog_feature_lost_tip_one" android:lineSpacingExtra="4.0dip" />
+</RelativeLayout>

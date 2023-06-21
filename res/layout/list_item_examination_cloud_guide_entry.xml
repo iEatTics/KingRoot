@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" style="@style/list_item_two_lines_style">
+        <com.kingroot.common.uilib.ShapedImageView android:id="@id/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:maxHeight="@dimen/list_item_cloud_guide_max_height" android:minHeight="@dimen/list_item_tow_lines_min_height" android:layout_centerInParent="true" app:shape_mode="round_rect" app:round_radius="@dimen/common_card_corner_radius" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/list_item_colorful_primary_title_style" />
+            <TextView android:id="@id/item_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/list_item_colorful_sub_title_style" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

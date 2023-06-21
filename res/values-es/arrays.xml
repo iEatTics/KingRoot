@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kr4_root_tips">
+        <item>Es normal que los dispositivos se reinicien durante el proceso de Root</item>
+        <item>Registrar Kingroot como módulo del sistema podría mejorar la estabilidad</item>
+        <item>Para la garantía del dispositivo, limpia primero las autoridades Root completamente</item>
+        <item>Después de aplicar Root, podrás desinstalar aplicaciones preinstaladas</item>
+        <item>Root es necesario para bloquear inicios automáticos</item>
+        <item>Después de aplicar Root, podrás optimizar el dispositivo con «KingRoot»</item>
+    </string-array>
+</resources>

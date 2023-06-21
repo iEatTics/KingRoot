@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/global_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding" android:contentDescription="@string/attribute_content_description_header"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_card_style_hover" android:paddingLeft="@dimen/common_list_item_left_padding" android:paddingRight="@dimen/common_list_item_right_padding" android:layout_width="fill_parent" android:layout_height="@dimen/common_card_height">
+        <ImageView android:id="@id/item_icon" android:layout_width="@dimen/common_list_item_icon_size" android:layout_height="@dimen/common_list_item_icon_size" android:layout_marginRight="@dimen/common_list_item_right_padding" style="@style/list_item_icon_style" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_icon_margin_right" android:layout_weight="1.0">
+            <TextView android:id="@id/item_title" android:layout_width="fill_parent" style="@style/list_item_content_main_text" />
+        </LinearLayout>
+        <TextView android:id="@id/item_describe" style="@style/exam_item_status_text" />
+        <ImageView android:id="@id/expand_icon" android:background="@drawable/arrow_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/attribute_content_description_image" />
+    </LinearLayout>
+    <View android:id="@id/item_divider" android:visibility="invisible" style="@style/common_orientation_divider" />
+    <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/list_view" android:paddingTop="4.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

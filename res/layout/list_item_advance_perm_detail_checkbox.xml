@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:switcher="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container" android:paddingLeft="22.0dip" style="@style/list_item_style_km">
+        <ImageView android:id="@id/perm_icon" android:layout_width="@dimen/common_list_item_icon_size" android:layout_height="@dimen/common_list_item_icon_size" android:layout_marginRight="22.0dip" android:scaleType="centerInside" style="@style/list_item_icon_style" />
+        <TextView android:textColor="@color/main_title_text" android:id="@id/perm_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/list_item_primary_title_style" />
+        <com.kingroot.common.uilib.QSwitchCheckBox android:id="@id/item_checkbox" android:layout_width="wrap_content" android:layout_height="fill_parent" switcher:background_on="@color/switcher_on_bg" switcher:background_off="@color/switcher_off_bg" switcher:thumb="@drawable/selector_switcher" />
+    </LinearLayout>
+    <include android:id="@id/divider" layout="@layout/common_divider" />
+</LinearLayout>

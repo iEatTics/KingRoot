@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_start_disabled_event_count_string">
+        <item quantity="other">Blocked %1$d situations</item>
+    </plurals>
+    <plurals name="auto_start_enabled_event_count_string">
+        <item quantity="other">Allowed %1$d situations</item>
+    </plurals>
+    <plurals name="examination_module_showing_auto_optimize_module_wrapper">
+        <item quantity="other">Improved %1$d</item>
+        <item quantity="one">Improved %1$d</item>
+    </plurals>
+    <plurals name="examination_module_showing_enhance_efficiency">
+        <item quantity="other">Runtime Environment(%1$d items)</item>
+        <item quantity="one">Runtime Environment(%1$d item)</item>
+    </plurals>
+    <plurals name="examination_module_showing_root_security_mgr">
+        <item quantity="other">Root Auth Enhanced(%1$d items)</item>
+        <item quantity="one">Root Auth Enhanced(%1$d item)</item>
+    </plurals>
+    <plurals name="examination_module_showing_sys_defence">
+        <item quantity="other">System Reinforcement(%1$d items)</item>
+        <item quantity="one">System Reinforcement(%1$d item)</item>
+    </plurals>
+    <plurals name="examination_status_manually_manage">
+        <item quantity="other">%1$d issues need attention</item>
+        <item quantity="one">%1$d issue need attention</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header_container" android:layout_alignParentTop="true" app:layout_widthPercent="100.0%" app:layout_heightPercent="0.0%" style="@style/home_page_content_item" />
+    <FrameLayout android:id="@id/control_panel_container" android:layout_below="@id/header_container" app:layout_widthPercent="100.0%" app:layout_heightPercent="0.0%" style="@style/home_page_content_item" />
+    <FrameLayout android:id="@id/menu_container" android:layout_below="@id/control_panel_container" app:layout_widthPercent="100.0%" app:layout_heightPercent="0.0%" style="@style/home_page_content_item" />
+    <FrameLayout android:id="@id/tool_box_container" android:layout_below="@id/menu_container" app:layout_widthPercent="100.0%" app:layout_heightPercent="0.0%" style="@style/home_page_content_item" />
+</android.support.percent.PercentRelativeLayout>

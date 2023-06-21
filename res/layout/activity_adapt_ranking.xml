@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ranking_whole_view" android:background="@color/root_process_ranking_bg_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kingroot.kinguser.root.views.others.RefreshRankingView android:id="@id/ranking_refresh_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/refresh_head_view" layout="@layout/kr4_ranking_header_view" />
+        <LinearLayout android:orientation="vertical" android:id="@id/refresh_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/stub_foot_view1" android:layout="@layout/kr4_ranking_footer_view" android:inflatedId="@id/refresh_foot_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ViewStub android:id="@id/stub_foot_view2" android:layout="@layout/kr4_bottom_ad_layout" android:inflatedId="@id/refresh_foot_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </com.kingroot.kinguser.root.views.others.RefreshRankingView>
+</RelativeLayout>

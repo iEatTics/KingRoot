@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/card_header" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip">
+                <FrameLayout android:layout_gravity="center_vertical" android:id="@id/cve_card_header_icon_layout" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                    <ImageView android:id="@id/cve_card_header_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/cve_icon_danger" />
+                    <com.kingcore.uilib.ProgressWhell android:id="@id/card_bottom_progresswhell" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <TextView android:textSize="@dimen/common_list_item_content_main_text_size" android:textColor="#fff53a5d" android:layout_gravity="center_vertical" android:id="@id/cve_card_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="hello" android:singleLine="true" android:layout_toRightOf="@id/cve_card_header_icon_layout" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView android:textSize="12.0sp" android:textColor="#ff99aeb9" android:ellipsize="end" android:id="@id/cve_card_content_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:lines="3" android:lineSpacingExtra="2.0dip" android:lineSpacingMultiplier="1.2" />
+            <View android:background="#ffdce5eb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/list_item_icon_margin_right" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/list_item_icon_margin_right" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/bottom_layout" android:background="@drawable/selector_card_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:weightSum="1.0">
+                <LinearLayout android:layout_gravity="center|left" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.7">
+                    <TextView android:textSize="12.0sp" android:textColor="#ff99aeb9" android:id="@id/cve_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Risk" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ff99aeb9" android:id="@id/cve_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Risk" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center|right" android:id="@id/cve_check_detail" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.3">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff395cf3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notify_silent_install_button" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

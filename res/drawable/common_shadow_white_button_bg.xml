@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_button_corner_radius" />
+            <solid android:color="#06d3d8db" />
+            <padding android:bottom="@dimen/shadow_button_nap" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_button_corner_radius" />
+            <solid android:color="#09d3d8db" />
+            <padding android:bottom="@dimen/shadow_button_nap" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_button_corner_radius" />
+            <solid android:color="#0cd3d8db" />
+            <padding android:bottom="@dimen/shadow_button_nap" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_button_corner_radius" />
+            <solid android:color="#0fd3d8db" />
+            <padding android:bottom="@dimen/shadow_button_nap" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_button_corner_radius" />
+            <solid android:color="#12d3d8db" />
+            <padding android:bottom="@dimen/shadow_button_nap" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_button_corner_radius" />
+            <solid android:color="#06d3d8db" />
+            <padding android:bottom="@dimen/shadow_button_nap" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#15d3d8db" />
+            <corners android:radius="@dimen/shadow_button_corner_radius" />
+            <padding android:bottom="@dimen/shadow_button_nap" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#18d3d8db" />
+            <corners android:radius="@dimen/shadow_button_corner_radius" />
+            <padding android:bottom="@dimen/shadow_button_nap" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/common_shadow_white_button_selector" />
+</layer-list>

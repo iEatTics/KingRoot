@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/common_text" android:textColor="@color/sub_title_text" android:id="@id/first_btn_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_adapt_wx_margin_bottom" android:text="@string/device_no_root" android:layout_centerHorizontal="true" />
+        <Button android:id="@id/first_btn" android:layout_marginTop="@dimen/root_adapt_km_ad_margin_bottom" android:text="@string/kr4_start_root" android:layout_below="@id/first_btn_title" android:layout_centerHorizontal="true" style="@style/root_black_button_style" />
+        <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/grey_2" android:id="@id/first_btn_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_adapt_wx_margin_bottom" android:layout_below="@id/first_btn" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

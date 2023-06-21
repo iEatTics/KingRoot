@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/global_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <include android:id="@id/float_item" layout="@layout/cleaner_uninstall_system_core_template" />
+        <com.kingroot.common.uilib.template.PinnedHeaderListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:divider="@drawable/list_view_divider_padding_shape" android:layout_weight="1.0" />
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/button_area" android:background="@color/card_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_footer_bar_height">
+            <Button android:id="@id/uninstall_button" android:layout_width="fill_parent" android:layout_height="@dimen/uninstall_height" android:layout_marginLeft="@dimen/uninstall_margin" android:layout_marginRight="@dimen/uninstall_margin" android:layout_centerVertical="true" style="@style/root_blue_shadow_button_style" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar android:gravity="center" android:id="@id/loading_progress" android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:indeterminateDrawable="@drawable/loading_drawable" android:layout_centerInParent="true" />
+</RelativeLayout>

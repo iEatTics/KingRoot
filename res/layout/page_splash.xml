@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_splash" android:layout_width="fill_parent" android:layout_height="fill_parent" skin:enable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <ImageView android:id="@id/splash_iv_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/splash_yyb" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="@dimen/text_size_4" android:textColor="@color/skin_splash_copyright_text_color" android:gravity="center_horizontal" android:id="@id/copy_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/about_all_right_reserved" android:layout_alignParentBottom="true" skin:enable="true" />
+    <TextView android:textSize="@dimen/text_size_4" android:textColor="@color/skin_splash_copyright_text_color" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/about_copyright" android:layout_above="@id/copy_right" skin:enable="true" />
+</RelativeLayout>

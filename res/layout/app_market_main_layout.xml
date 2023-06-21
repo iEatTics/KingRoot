@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/main_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/top_bar_outer" android:clickable="true" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <RelativeLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/app_market_top_bar_inner_h" android:layout_alignParentTop="true">
+            <com.kingroot.kinguser.distribution.appsmarket.view.SearchView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_box" android:background="@drawable/apps_market_search_box_white_bg" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/title_right_container" android:layout_toRightOf="@id/back" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/back" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/apps_market_white_arrow_shadown_back" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <FrameLayout android:id="@id/title_right_container" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.kingcore.uilib.ProgressWhell android:textColor="@color/blue_1" android:layout_gravity="center" android:id="@id/progress_iv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/main_rv" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/data_exception" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/main_rv" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_network" android:contentDescription="@string/attribute_content_description_image" />
+        <TextView android:textSize="@dimen/text_size_3" android:textColor="@color/main_title_text" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/apps_market_main_load_data_error" />
+    </LinearLayout>
+</RelativeLayout>

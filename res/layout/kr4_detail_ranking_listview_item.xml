@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/global_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider_line" android:background="@color/white_3" android:layout_width="fill_parent" android:layout_height="@dimen/root_bottom_top_part_line" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/ranking_device_icon" android:layout_width="@dimen/list_item_icon_size" android:layout_height="@dimen/list_item_icon_size" android:layout_marginLeft="16.0dip" android:src="@drawable/kr4_brand_gray_17" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ranking_device_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:layout_toRightOf="@id/ranking_device_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/common_text" android:textColor="@color/main_title_text" android:id="@id/ranking_brand_model" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/main_title_text" android:textColor="@color/sub_title_text" android:id="@id/ranking_adapted_person" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_gap" android:text="@string/kr4_ranking_adapted_person" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/kr4_content_text" android:textColor="@color/main_title_text" android:id="@id/ranking_adapt_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

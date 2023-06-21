@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:contentDescription="@string/attribute_content_description_header"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.6">
+            <RelativeLayout android:id="@id/item_icon_layout" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageView android:id="@id/item_icon_tips" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_1" android:layout_gravity="center_vertical" android:id="@id/item_title" android:layout_marginLeft="16.0dip" android:singleLine="false" style="@style/list_item_primary_title_style" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.4">
+            <TextView android:textSize="12.0sp" android:textColor="@color/blue_2" android:id="@id/item_sub_title" android:layout_marginRight="20.0dip" android:singleLine="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/list_item_primary_title_style" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

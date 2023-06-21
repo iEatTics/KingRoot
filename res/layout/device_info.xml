@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/device_scrollview" android:background="@color/device_page_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip">
+        <FrameLayout android:id="@id/root_state_manager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/device_usage_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" layout="@layout/device_status" />
+        <include android:id="@id/hardware_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" layout="@layout/list_item_hardware_expandable" />
+    </LinearLayout>
+</ScrollView>

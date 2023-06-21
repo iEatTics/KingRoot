@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_inside_dialog_title_template" />
+    <LinearLayout style="@style/new_dialog_content_layout_style">
+        <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_min_width">
+                <TextView android:id="@id/item_content" android:text="@string/warn_prompt_content" android:lineSpacingMultiplier="1.2" style="@style/new_dialog_content_text_style" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/item_link" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/blue_1" android:layout_gravity="center_vertical" android:background="@drawable/selector_dialog_common_left_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/warn_prompt_link" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/common_dialog_bottom_template" />
+</LinearLayout>

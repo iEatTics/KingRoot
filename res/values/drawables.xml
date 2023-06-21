@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="new_year_skin_exam_result_item_red">#ffd4a26a</item>
+    <item type="drawable" name="skin_exam_detail_arrow_back">@drawable/common_arrow_back</item>
+    <item type="drawable" name="skin_exam_detail_page_bg">@color/global_background_color</item>
+    <item type="drawable" name="skin_exam_result_item_normal_selector">@drawable/common_shadow_button_selector</item>
+    <item type="drawable" name="skin_exam_result_item_red_selector">@drawable/common_shadow_red_button_selector</item>
+    <item type="drawable" name="skin_main_exp_circle_bg">@drawable/transparent</item>
+    <item type="drawable" name="skin_main_page_bg">@color/global_background_color</item>
+    <item type="drawable" name="skin_main_panel_button_bg_normal">@drawable/common_shadow_button_bg</item>
+    <item type="drawable" name="skin_main_panel_button_bg_warning">@drawable/common_red_shadow_button_bg</item>
+    <item type="drawable" name="skin_main_right_menu">@drawable/common_more</item>
+    <item type="drawable" name="skin_main_template_menu_selector">@drawable/title_button_selector</item>
+    <item type="drawable" name="skin_opt_detail_template_left_back_selector">@drawable/title_button_selector</item>
+    <item type="drawable" name="transparent">#00000000</item>
+</resources>

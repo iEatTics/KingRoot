@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kingroot.common.uilib.MainExpCircleView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:skin="http://schemas.android.com/android/skin">
+    <android.support.percent.PercentRelativeLayout android:id="@id/circle_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/skin_main_exp_circle_bg" android:scaleType="centerInside" android:layout_centerInParent="true" app:layout_heightPercent="100.0%" skin:enable="true" />
+        <com.kingroot.common.uilib.MainExpOutCircleView android:id="@id/out_circle" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_centerInParent="true" app:layout_widthPercent="100.0%" app:layout_heightPercent="100.0%" />
+        <com.kingroot.common.uilib.MainExpInnerCircleView android:id="@id/inner_circle" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_centerInParent="true" app:layout_widthPercent="100.0%" app:layout_heightPercent="100.0%" />
+        <com.kingroot.common.uilib.MainExpOuterPointerView android:id="@id/outer_pointer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_centerInParent="true" app:layout_widthPercent="100.0%" app:layout_heightPercent="100.0%" />
+    </android.support.percent.PercentRelativeLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/bottom" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/system_defence" layout="@layout/layout_rotate_icon" />
+        <include android:id="@id/root_security" layout="@layout/layout_rotate_icon" />
+        <include android:id="@id/enhance_efficiency" layout="@layout/layout_rotate_icon" />
+    </LinearLayout>
+</com.kingroot.common.uilib.MainExpCircleView>

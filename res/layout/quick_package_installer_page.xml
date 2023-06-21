@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kingroot.common.uilib.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_up_panel_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" app:umanoPanelHeight="70.0dip" app:umanoShadowHeight="0.0dip" app:umanoParallaxOffsetFactor="1.0" app:umanoDragView="@id/header" app:umanoOverlay="true" app:umanoEnableCover="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+            <RelativeLayout android:layout_gravity="center" android:padding="8.0dip" android:layout_width="200.0dip" android:layout_height="200.0dip">
+                <ImageView android:id="@id/background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/icon" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/unknown_app" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.kingcore.uilib.smoothprogressbar.SmoothProgressBar android:id="@id/install_process" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:indeterminate="true" app:spb_color="#ff4cb050" app:spb_stroke_width="4.0dip" app:spb_stroke_separator_length="4.0dip" app:spb_sections_count="2" app:spb_speed="2.0" app:spb_reversed="false" app:spb_mirror_mode="false" app:spb_background="@color/white_1"
+                  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/install_tips_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/icon_allow" />
+                    <TextView android:textSize="16.0sp" android:textColor="#ff182e43" android:ellipsize="end" android:id="@id/install_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" android:maxLines="1" android:maxLength="20" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                        <LinearLayout android:gravity="right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="0.4">
+                            <ImageView android:id="@id/original_tips_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_allow" />
+                        </LinearLayout>
+                        <TextView android:textSize="12.0sp" android:textColor="#ff182e43" android:layout_gravity="center|left" android:id="@id/orignial_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/safe_app_tag_text" android:singleLine="true" android:layout_weight="0.6" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:weightSum="1.0">
+                        <LinearLayout android:gravity="right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_weight="0.4">
+                            <ImageView android:id="@id/risk_tips_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_allow" />
+                        </LinearLayout>
+                        <TextView android:textSize="12.0sp" android:textColor="#ff182e43" android:layout_gravity="center|left" android:id="@id/risk_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/safe_app_tag_text" android:singleLine="true" android:layout_weight="0.6" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textSize="15.0sp" android:textColor="@color/blue_1" android:id="@id/btn_left" android:background="@drawable/quick_install_btn_seletor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="32.0dip" android:text="@string/app_open_state_btn" />
+                    <Button android:textSize="15.0sp" android:textColor="@color/blue_1" android:id="@id/btn_right" android:background="@drawable/quick_install_btn_seletor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="32.0dip" android:text="@string/gamebox_recommend_list_item_btn_retry" />
+                </LinearLayout>
+                <TextView android:textSize="12.0sp" android:textColor="@color/red_1" android:gravity="left" android:layout_gravity="center_horizontal" android:id="@id/risk_content" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/quick_install_risk_content" />
+                <Button android:id="@id/btn_goto_safe_download" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/uninstall_height" android:layout_marginLeft="@dimen/uninstall_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/uninstall_margin" android:text="@string/quick_install_safe_download" style="@style/root_blue_shadow_button_style" />
+                <TextView android:gravity="center" android:id="@id/btn_continue_install" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/quick_install_continue_install" style="@style/text_secondary_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/btn_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="74.0dip">
+                <Button android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/btn_cancel" android:background="@drawable/quick_install_btn_seletor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginRight="16.0dip" android:text="@string/dialog_btn_cancel" />
+                <Button android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/btn_install" android:background="@drawable/quick_install_btn_seletor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:text="@string/quick_install_btn_skip_scan" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/drag_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding">
+            <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <RelativeLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentTop="true">
+                        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                            <ImageView android:layout_gravity="bottom|center" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_up" />
+                            <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                <ImageView android:id="@id/new_dot" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/red_dot_shape" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <FrameLayout android:id="@id/loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+                        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/loading_progress" android:layout_width="25.0dip" android:layout_height="25.0dip" android:indeterminateDrawable="@drawable/loading_drawable" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/collapsePanel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+                        <include android:visibility="invisible" layout="@layout/quick_install_recommend_layout" />
+                        <View android:id="@id/main_divider" android:background="@color/divide_line" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+                        <include android:visibility="invisible" layout="@layout/quick_install_suggestion_layout" />
+                    </LinearLayout>
+                    <TextView android:textColor="@color/blue_1" android:gravity="center_horizontal" android:id="@id/btn_enter_app_market" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="40.0dip" android:text="@string/quick_install_enter_app_market" android:layout_below="@id/collapsePanel" />
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+    </com.kingroot.common.uilib.SlidingUpPanelLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_outside_dialog_title_template" />
+    <ScrollView android:id="@id/content_scrollview" android:scrollbars="none" style="@style/new_outside_dialog_content_layout_style">
+        <LinearLayout android:orientation="vertical" android:id="@id/main_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_min_width">
+            <TextView android:textColor="@color/main_title_text" android:ellipsize="end" android:id="@id/main_content" android:text="@string/version_update_ku_update_bar_content" android:lines="2" style="@style/new_dialog_content_text_style" />
+            <TextView android:textColor="@color/main_title_text" android:id="@id/sub_content" android:text="@string/version_update_ku_update_bar_content" style="@style/new_dialog_content_text_style" />
+            <TextView android:textColor="@color/red_1" android:id="@id/item_trust" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/urlcheck_dialog_trust_text" />
+            <LinearLayout android:orientation="vertical" android:id="@id/multi_line_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/common_dialog_bottom_template" />
+</LinearLayout>

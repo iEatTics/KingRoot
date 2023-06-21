@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/card_header" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/cve_card_header_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/cve_icon_danger" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/common_list_item_content_main_text_size" android:textColor="#fff53a5d" android:layout_gravity="center_vertical" android:id="@id/cve_card_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="hello" android:singleLine="true" android:layout_toRightOf="@id/cve_card_header_icon" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:background="#ffdce5eb" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/list_item_icon_margin_right" android:layout_marginRight="@dimen/list_item_icon_margin_right" />
+        <LinearLayout android:orientation="vertical" android:id="@id/cve_no_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/cve_no_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cve_detail_page_cve_no_title" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff99aeb9" android:id="@id/cve_no" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="00000" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/cve_desc_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/cve_desc_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cve_detail_page_cve_desc_title" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff99aeb9" android:id="@id/cve_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="00000" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/cve_version_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/cve_version_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cve_detail_page_cve_version_title" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff99aeb9" android:id="@id/cve_version" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="00000" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/cve_link_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="#ff182e43" android:id="@id/cve_link_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cve_detail_page_cve_link_title" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff395cf3" android:id="@id/cve_link" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/container" android:background="@color/transparent" android:layout_width="330.0dip" android:layout_height="360.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/bg" android:layout_width="330.0dip" android:layout_height="360.0dip" android:scaleType="fitCenter" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/btn" android:layout_width="145.0dip" android:layout_height="40.0dip" android:layout_marginBottom="18.0dip" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/skip_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TextView android:textSize="13.0sp" android:textColor="#80ffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/count_down" android:background="@drawable/splash_skip_btn_bg" android:layout_width="30.0dip" android:layout_height="20.0dip" />
+            <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pop_close" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

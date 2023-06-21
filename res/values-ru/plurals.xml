@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_start_disabled_event_count_string">
+        <item quantity="other">Запрещено случаев: %1$d</item>
+        <item quantity="one">Запрещено случаев: %1$d</item>
+        <item quantity="few">Запрещено случаев: %1$d</item>
+    </plurals>
+    <plurals name="auto_start_enabled_event_count_string">
+        <item quantity="other">Разрешено случаев: %1$d</item>
+        <item quantity="one">Разрешено случаев: %1$d</item>
+        <item quantity="few">Разрешено случаев: %1$d</item>
+    </plurals>
+    <plurals name="examination_module_showing_auto_optimize_module_wrapper">
+        <item quantity="other">Улучшено %1$d</item>
+        <item quantity="one">Улучшено %1$d</item>
+        <item quantity="few">Улучшено %1$d</item>
+    </plurals>
+    <plurals name="examination_module_showing_enhance_efficiency">
+        <item quantity="other">Усиление системы(%1$d элементов)</item>
+        <item quantity="one">Среда системы(%1$d элемент)</item>
+        <item quantity="few">Усиление системы(%1$d элемента)</item>
+    </plurals>
+    <plurals name="examination_module_showing_root_security_mgr">
+        <item quantity="other">Авторизация Root расширена(%1$d элементов)</item>
+        <item quantity="one">Авторизация Root расширена(%1$d элемент)</item>
+        <item quantity="few">Авторизация Root расширена(%1$d элемента)</item>
+    </plurals>
+    <plurals name="examination_module_showing_sys_defence">
+        <item quantity="other">Усиление системы(%1$d элементов)</item>
+        <item quantity="one">Усиление системы(%1$d элемент)</item>
+        <item quantity="few">Усиление системы(%1$d элемента)</item>
+    </plurals>
+    <plurals name="examination_status_manually_manage">
+        <item quantity="other">%1$d проблем требуют внимания</item>
+        <item quantity="one">%1$d проблема требует внимания</item>
+        <item quantity="few">%1$d проблемы требуют внимания</item>
+    </plurals>
+</resources>

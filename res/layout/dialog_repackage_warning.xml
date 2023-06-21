@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_layout" style="@style/new_dialog_title_layout_style">
+        <TextView android:textSize="@dimen/dialog_title_text_size" android:textStyle="bold" android:textColor="@color/red_1" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/repackage_warning_dangerous" android:layout_below="@id/title_icon" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/title_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/popwindow_waring_red" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/image" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" style="@style/new_dialog_content_layout_style">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_min_width">
+            <TextView android:textSize="@dimen/new_dialog_sub_text" android:textColor="@color/main_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/repackage_warning_tip" android:lineSpacingMultiplier="1.2" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/common_dialog_bottom_template" />
+</LinearLayout>

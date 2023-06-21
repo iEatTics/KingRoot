@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:background="@drawable/shape_dialog_common_title_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/bg_crown" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="90.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/bg_request_dialog_content" android:scaleType="fitEnd" android:contentDescription="@string/attribute_content_description_image" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:id="@id/title_layout" layout="@layout/common_dialog_title_transparent_template" />
+            <ScrollView android:id="@id/content_scrollview" android:scrollbars="none" style="@style/new_dialog_content_layout_style">
+                <LinearLayout android:id="@id/main_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_min_width">
+                    <TextView android:id="@id/item_content" android:lineSpacingMultiplier="1.2" style="@style/new_dialog_content_text_style" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/common_dialog_bottom_template" />
+</LinearLayout>

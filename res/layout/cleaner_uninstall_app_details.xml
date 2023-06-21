@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/new_dialog_global_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_dialog_title_template" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/new_dialog_line_margin" android:layout_marginTop="@dimen/new_dialog_line_margin" android:layout_marginRight="@dimen/new_dialog_line_margin">
+        <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/text_warning_color" android:id="@id/app_uninstall_warning" android:visibility="gone" android:layout_marginBottom="5.0dip" android:text="@string/uninstall_warning_tips" style="@style/text_secondary_style" />
+            <TextView android:id="@id/app_description" android:layout_marginBottom="5.0dip" style="@style/text_secondary_style_km" />
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/dialog_content_secondary_text_km" android:ellipsize="end" android:id="@id/risk_db_source" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/dialog_content_secondary_text_km" android:ellipsize="end" android:id="@id/app_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_app_type_tag" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/dialog_content_secondary_text_km" android:ellipsize="end" android:id="@id/app_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_app_version_tag" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/dialog_content_secondary_text_km" android:ellipsize="end" android:id="@id/app_update_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_app_update_tag" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/dialog_content_secondary_text_km" android:ellipsize="end" android:id="@id/app_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_app_size_tag" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/dialog_content_secondary_text_km" android:ellipsize="end" android:id="@id/app_data_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_app_data_size" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/dialog_content_secondary_text_km" android:id="@id/app_source_dir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uninstall_app_source_dir" />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/common_dialog_bottom_template" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kingroot.common.uilib.ShapedImageView android:layout_gravity="center_vertical" android:id="@id/iv" android:background="@color/transparent" android:layout_width="@dimen/apps_market_topic_item_w" android:layout_height="@dimen/apps_market_topic_item_h" android:layout_marginRight="@dimen/apps_market_topic_item_padding_right" android:scaleType="centerCrop" app:shape_mode="round_rect" app:round_radius="@dimen/apps_market_topic_item_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

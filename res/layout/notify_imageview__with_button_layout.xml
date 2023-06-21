@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notify_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="@string/attribute_content_description_image" />
+    <Button android:textSize="@dimen/notify_btn_text_size" android:textColor="@color/white_text" android:id="@id/notify_button" android:background="@drawable/selector_common_button_green" android:layout_width="64.0dip" android:layout_height="32.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

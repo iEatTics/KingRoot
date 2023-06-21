@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/def_setting_main_page_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:minHeight="80.0dip" android:layout_alignParentTop="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/advance_perm_main_default_settings_item" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/green_0" android:id="@id/def_setting_main_page_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/advance_perm_root_default_settings_sub_title" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/blue_2" android:id="@id/def_setting_main_page_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/advance_perm_noroot_default_settings_sub_title" />
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/def_setting_main_page_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/optimize_btn_layout" android:layout_below="@id/def_setting_main_page_header" />
+    <RelativeLayout android:gravity="center" android:id="@id/optimize_btn_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/list_footer_bar_height" android:layout_marginTop="4.0dip" android:layout_alignParentBottom="true">
+        <Button android:id="@id/optimize_btn" android:layout_width="fill_parent" android:layout_height="@dimen/uninstall_height" android:layout_marginLeft="@dimen/uninstall_margin" android:layout_marginRight="@dimen/uninstall_margin" android:text="@string/security_protect_cve_card_button_desc" style="@style/root_blue_shadow_button_style"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pending_handle_item" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include style="@style/common_orientation_divider" layout="@layout/common_divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container" android:background="@drawable/selector_list_item_card_style_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_minHeight" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/virulence_red_cir" android:contentDescription="@string/image" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/red_1" android:id="@id/main_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/common_show_arrow_right" android:contentDescription="@string/image" />
+    </LinearLayout>
+    <include style="@style/common_orientation_divider" layout="@layout/common_divider" />
+</LinearLayout>

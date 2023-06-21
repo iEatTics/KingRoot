@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SPB" parent="@android:style/Widget.Material.ProgressBar.Horizontal" />
+    <style name="card_view">
+        <item name="android:background">@drawable/selector_card_style_bg</item>
+        <item name="android:padding">@dimen/common_card_stroke_width</item>
+    </style>
+    <style name="common_red_shadow_button_style">
+        <item name="android:textSize">@dimen/common_text</item>
+        <item name="android:textColor">@color/shadow_button_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_red_shadow_button_bg</item>
+        <item name="android:layout_width">@dimen/shadow_button_width</item>
+        <item name="android:layout_height">@dimen/shadow_button_height</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="common_shadow_button_style">
+        <item name="android:textSize">@dimen/common_text</item>
+        <item name="android:textColor">@color/shadow_button_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_shadow_button_bg</item>
+        <item name="android:layout_width">@dimen/shadow_button_width</item>
+        <item name="android:layout_height">@dimen/shadow_button_height</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="common_shadow_white_button_style">
+        <item name="android:textSize">@dimen/common_text</item>
+        <item name="android:textColor">@color/main_title_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_shadow_white_button_bg</item>
+        <item name="android:layout_width">@dimen/shadow_button_width</item>
+        <item name="android:layout_height">@dimen/shadow_button_height</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="new_dialog_btn_style">
+        <item name="android:textSize">@dimen/new_dialog_main_text</item>
+        <item name="android:textColor">@color/button</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_dialog_button_selector</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">@dimen/new_dialog_btn_height</item>
+        <item name="android:text">@android:string/unknownName</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="root_black_button_style">
+        <item name="android:textSize">@dimen/common_text</item>
+        <item name="android:textColor">@color/blue_2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_black_button_selector</item>
+        <item name="android:layout_width">@dimen/device_root_button_width</item>
+        <item name="android:layout_height">@dimen/device_root_button_height</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="root_blue_shadow_button_style">
+        <item name="android:textSize">@dimen/common_text</item>
+        <item name="android:textColor">@color/shadow_button_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_shadow_button_bg</item>
+        <item name="android:layout_width">@dimen/root_shadow_button_width</item>
+        <item name="android:layout_height">@dimen/root_shadow_button_height</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="root_white_button_style">
+        <item name="android:textSize">@dimen/common_text</item>
+        <item name="android:textColor">@color/blue_1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_white_button_selector</item>
+        <item name="android:layout_width">@dimen/root_shadow_button_width</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="root_white_shadow_button_style">
+        <item name="android:textSize">@dimen/common_text</item>
+        <item name="android:textColor">@color/main_title_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/common_shadow_white_button_bg</item>
+        <item name="android:layout_width">@dimen/root_shadow_button_width</item>
+        <item name="android:layout_height">@dimen/root_shadow_button_height</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

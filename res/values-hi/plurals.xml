@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_start_disabled_event_count_string">
+        <item quantity="other">%1$d स्थितियों को ब्लॉक किया गया</item>
+        <item quantity="one">%1$d स्थिति को ब्लॉक किया गया</item>
+    </plurals>
+    <plurals name="auto_start_enabled_event_count_string">
+        <item quantity="other">%1$d स्थितियों को अनुमति दी गई</item>
+        <item quantity="one">%1$d स्थिति को अनुमति दी गई</item>
+    </plurals>
+    <plurals name="examination_module_showing_auto_optimize_module_wrapper">
+        <item quantity="other">संशोधित %1$d</item>
+        <item quantity="one">संशोधित %1$d</item>
+    </plurals>
+    <plurals name="examination_module_showing_enhance_efficiency">
+        <item quantity="other">रनटाइम परिवेश(%1$d आइटम)</item>
+        <item quantity="one">रनटाइम परिवेश(%1$d आइटम)</item>
+    </plurals>
+    <plurals name="examination_module_showing_root_security_mgr">
+        <item quantity="other">रूट प्राधिकरण को उन्नत किया गया(%1$d आइटम)</item>
+        <item quantity="one">रूट प्राधिकरण को उन्नत किया गया(%1$d आइटम)</item>
+    </plurals>
+    <plurals name="examination_module_showing_sys_defence">
+        <item quantity="other">सिस्टम सुदृढ़ीकरण(%1$d आइटम)</item>
+        <item quantity="one">सिस्टम सुदृढ़ीकरण(%1$d आइटम)</item>
+    </plurals>
+    <plurals name="examination_status_manually_manage">
+        <item quantity="other">%1$d समस्या पर ध्यान दिए जाने की आवश्यकता है</item>
+        <item quantity="one">%1$d समस्या पर ध्यान दिए जाने की आवश्यकता है</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/center_part" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <ImageView android:id="@id/icon" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/root_cloud" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/checking" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_check" android:layout_alignRight="@id/icon" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/result_tick" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_tick" android:layout_alignRight="@id/icon" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/text_size_4" android:textColor="@color/skin_main_rotate_text_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_upper_text_view_margin_gap" android:text="@android:string/unknownName" android:singleLine="true" android:layout_below="@id/icon" android:layout_centerHorizontal="true" skin:enable="true" />
+</RelativeLayout>

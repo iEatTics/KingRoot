@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/list_item_style_km">
+        <RelativeLayout style="@style/list_item_icon_container_style">
+            <ImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/unknown_app" android:contentDescription="@string/image" />
+        </RelativeLayout>
+        <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/black_1" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/radio_button" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="7.5999756dip" android:src="@drawable/selector_radio" android:scaleType="centerInside" android:contentDescription="@null" />
+        <com.kingcore.uilib.TextRoundCornerProgressBar android:id="@id/btn_enable" android:visibility="gone" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:rcTextProgress="@string/examination_manual_entry_btn_open" style="@style/App_Market_App_Download_Btn_Style" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </LinearLayout>
+    <include android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/left_space_divider" />
+</LinearLayout>

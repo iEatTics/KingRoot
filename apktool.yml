@@ -1,0 +1,175 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: KingRoot.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/1001.dat
+- assets/1002.dat
+- assets/1003.dat
+- assets/40246.dat
+- assets/40246.xdat
+- assets/40251.dat
+- assets/40270.dat
+- assets/40294.dat
+- assets/40296.dat
+- assets/40299.dat
+- assets/40305.dat
+- assets/40312.dat
+- assets/40313.dat
+- assets/40351.dat
+- assets/40364.dat
+- assets/40366.dat
+- assets/40372.dat
+- assets/40386.dat
+- assets/40436.dat
+- assets/40491.dat
+- assets/40532.dat
+- assets/40576.dat
+- assets/8101.jar
+- assets/channel.ini
+- assets/cl2.conf
+- assets/config.properties
+- assets/dtm
+- assets/firewall-2.0.2.dat
+- assets/hk
+- assets/jsapi.js
+- assets/kd
+- assets/krsdk.cert
+- assets/ktools
+- assets/ktools.jar
+- assets/ku.conf
+- assets/ku.ver
+- assets/kup.conf
+- assets/kutx.conf
+- assets/libai.so.arm64
+- assets/libbpm.arm64
+- assets/librqd
+- assets/librqd.arm64
+- assets/libxy
+- assets/libxy.arm64
+- assets/meriapp.m
+- assets/meriextra.m
+- assets/mod_aid
+- assets/mod_hp
+- assets/tpssdk.cert
+- assets/uranus.zip
+- assets/wod.jar
+- assets/zgo.jar
+- png
+- lib/arm64-v8a/libappcloner.so
+- lib/arm64-v8a/libsandhook-native.so
+- lib/arm64-v8a/libsandhook.so
+- lib/armeabi/libappcloner.so
+- lib/armeabi/libsandhook-native.so
+- lib/armeabi/libsandhook.so
+- jpg
+- res/raw/busybox
+- res/raw/eiscan
+- res/raw/intellectron
+- res/raw/krdem
+- res/raw/otasurvival
+- res/raw/su
+- res/raw/tools
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '21'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  com/applisto/appcloner/classes/cloneSettings.json: '8'
+  com/applisto/appcloner/classes/strings.properties: '8'
+  com/kingroot/kingmaster/network/download/KuDownloadInfo.aidl: '8'
+  com/kingroot/kingmaster/network/updata/CheckResult.aidl: '8'
+  com/kingroot/kingmaster/network/updata/ICheckIPCListener.aidl: '8'
+  com/kingroot/kingmaster/toolbox/autostartmgr/wod/service/IWodService.aidl: '8'
+  com/kingroot/kinguser/advance/install/IInjectCallback.aidl: '8'
+  com/kingroot/kinguser/advance/install/aidl/CheckResult.aidl: '8'
+  com/kingroot/kinguser/advance/install/aidl/ICheckCallback.aidl: '8'
+  com/kingroot/kinguser/advance/install/aidl/ISilentInstallManager.aidl: '8'
+  com/kingroot/kinguser/advance/install/aidl/SilentInstallRequest.aidl: '8'
+  com/kingroot/kinguser/advance/manager/IPermChangedListener.aidl: '8'
+  com/kingroot/kinguser/ai/AntiInjectLogModel.aidl: '8'
+  com/kingroot/kinguser/ai/IAntiInjectClient.aidl: '8'
+  com/kingroot/kinguser/ai/IAntiInjectDaemonManager.aidl: '8'
+  com/kingroot/kinguser/ai/fore/IAntiInjectClientManager.aidl: '8'
+  com/kingroot/kinguser/ai/fore/IAntiInjectSwitcherOpObserver.aidl: '8'
+  com/kingroot/kinguser/common/check/ICheckExecuteService.aidl: '8'
+  com/kingroot/kinguser/common/check/ICheckUnitListener.aidl: '8'
+  com/kingroot/kinguser/common/check/ISuCheckListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/entity/AppBaseModel.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/entity/AppDetailModel.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/entity/AppDownLoadModel.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/entity/AvailUpdateInfo.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/entity/CategoryEntity.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/entity/GameReservationState.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/entity/GameSummonEntity.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IGetSplashResult.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/ILoadAppHistoryListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/ILoadAppStatusListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/ILoadAppsDetailListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/ILoadAppsListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/ILoadCategoryListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/ILoadDataListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/ILoadRecommendAppsListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IMergeApkPatchListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IOnWifiAutoDownloadListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IQueryReservationStateResult.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IQuerySummonListResult.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IReqSuggWordListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IRequestAvailUpdateListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IRequestResultListener.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/IReservateGameResult.aidl: '8'
+  com/kingroot/kinguser/distribution/appsmarket/interfaces/ISearchAppsListener.aidl: '8'
+  com/kingroot/kinguser/distribution/examination/entity/ExamRecommendAppInfo.aidl: '8'
+  com/kingroot/kinguser/distribution/examination/net/ReqAppCallback.aidl: '8'
+  com/kingroot/kinguser/distribution/net/download/DownloaderTaskInfo.aidl: '8'
+  com/kingroot/kinguser/distribution/net/download/IAppDownloadListener.aidl: '8'
+  com/kingroot/kinguser/distribution/net/download/NetworkChangedRemoteListener.aidl: '8'
+  com/kingroot/kinguser/examination/service/CloudCheckLiteInfo.aidl: '8'
+  com/kingroot/kinguser/examination/service/ICloudCheckCallback.aidl: '8'
+  com/kingroot/kinguser/examination/service/ICloudCheckManager.aidl: '8'
+  com/kingroot/kinguser/gamebox/common/IAppChangedListener.aidl: '8'
+  com/kingroot/kinguser/gamebox/common/IAppInstallListener.aidl: '8'
+  com/kingroot/kinguser/gamebox/dao/ILoadRecommendedSoftDetailListener.aidl: '8'
+  com/kingroot/kinguser/gamebox/foreground/model/GameRecommendDetailItemModel.aidl: '8'
+  com/kingroot/kinguser/gamebox/foreground/model/GameRecommendInfoModel.aidl: '8'
+  com/kingroot/kinguser/gamebox/foreground/model/IGameFreshListener.aidl: '8'
+  com/kingroot/kinguser/model/AppInfo.aidl: '8'
+  com/kingroot/kinguser/model/AppRuleEntity.aidl: '8'
+  com/kingroot/kinguser/model/RootMgrAppModel.aidl: '8'
+  com/kingroot/kinguser/model/RootMgrLogInfo.aidl: '8'
+  com/kingroot/kinguser/model/SuRequestCmdModel.aidl: '8'
+  com/kingroot/kinguser/net/commoncloudlist/RiskControlInfo.aidl: '8'
+  com/kingroot/kinguser/net/shark/IKSharkRemoteListener.aidl: '8'
+  com/kingroot/kinguser/plugin/qqpim/protocol/shark/ISharkCallback.aidl: '8'
+  com/kingroot/kinguser/plugin/upgrade/IPluginUpgradeService.aidl: '8'
+  com/kingroot/kinguser/plugin/upgrade/PluginDownloadCallback.aidl: '8'
+  com/kingroot/kinguser/plugin/upgrade/PluginUpgradeInfo.aidl: '8'
+  com/kingroot/kinguser/root/log/ILogsChangeListener.aidl: '8'
+  com/kingroot/kinguser/root/log/IRootMgrLogEngine.aidl: '8'
+  com/kingroot/kinguser/root/mgr/IAppRulesChangeListener.aidl: '8'
+  com/kingroot/kinguser/root/mgr/IRootManager.aidl: '8'
+  com/kingroot/kinguser/service/IKCommonManagerInterface.aidl: '8'
+  com/kingroot/kinguser/urlcheck/aidl/ICallback.aidl: '8'
+  com/kingroot/kinguser/urlcheck/aidl/IDaemonService.aidl: '8'
+  com/kingroot/kinguser/urlcheck/aidl/UrlCheckRule.aidl: '8'
+  com/kingroot/kinguser/util/protect/RebootStat.aidl: '8'
+  com/kingroot/kinguser/xmod/ITpsCallback.aidl: '8'
+  com/kingroot/kinguser/xmod/TpsEvent.aidl: '8'
+  com/kingroot/processwall/server/IProcWallManager.aidl: '8'
+  com/kingroot/puremode/servicemgr/IPureModeManager.aidl: '8'
+  com/tencent/permissionfw/permission/export/PermissionTable.aidl: '8'
+  com/tencent/permissionfw/permission/export/PermissionTableItem.aidl: '8'
+  qqpimaccount/META-INF/MANIFEST.MF: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '204'
+  versionName: 5.4.0

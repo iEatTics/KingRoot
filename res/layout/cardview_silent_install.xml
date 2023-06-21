@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/card_header" android:layout_width="fill_parent" android:layout_height="72.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/card_header_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/engine_black" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/black_1" android:id="@id/card_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="none app" android:singleLine="true" android:layout_toRightOf="@id/card_header_icon" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center" android:id="@id/risk_app_icon" android:background="@drawable/risk_app_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/card_header_title" android:layout_centerVertical="true">
+            <TextView android:textSize="11.0sp" android:textColor="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/advance_perm_app_list_risk_text" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_1" android:id="@id/card_header_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ask" android:singleLine="true" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/card_header_option_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="8.0dip" android:src="@drawable/common_more" android:scaleType="centerInside" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include style="@style/common_orientation_divider" layout="@layout/common_divider" />
+    <android.support.v7.widget.RecyclerView android:id="@id/card_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" layoutManager="LinearLayoutManager" />
+</LinearLayout>

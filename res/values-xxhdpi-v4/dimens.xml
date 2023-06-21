@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kr4_brand_icon_w">120.0dip</dimen>
+    <dimen name="kr4_checkroot_inner_diameter">231.0dip</dimen>
+    <dimen name="kr4_circle_diameter">237.0dip</dimen>
+    <dimen name="kr4_circle_out_loop_common_thickness">8.0px</dimen>
+    <dimen name="kr4_title_margin_bottom">50.0dip</dimen>
+</resources>

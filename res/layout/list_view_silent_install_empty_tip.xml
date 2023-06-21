@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_tips_panel" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include style="@style/common_orientation_divider" layout="@layout/common_divider" />
+        <include android:id="@id/silent_install_warning_tips_usb" layout="@layout/list_item_silent_install_warning_tips" />
+        <include style="@style/common_orientation_divider" layout="@layout/common_divider" />
+        <include android:id="@id/silent_install_warning_tips_app" layout="@layout/list_item_silent_install_warning_tips" />
+        <include style="@style/common_orientation_divider" layout="@layout/common_divider" />
+    </LinearLayout>
+    <Button android:textSize="15.0sp" android:textColor="@color/white_1" android:gravity="center" android:id="@id/main_button" android:background="@color/blue_5" android:layout_width="248.0dip" android:layout_height="48.0dip" android:layout_marginTop="42.0dip" android:text="@string/permission_btn_open" android:singleLine="false" android:layout_below="@id/main_tips_panel" android:layout_centerHorizontal="true" style="@style/common_shadow_button_style" />
+</RelativeLayout>

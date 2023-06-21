@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/content_scrollview" android:scrollbars="none" style="@style/new_outside_dialog_content_layout_style">
+        <LinearLayout android:id="@id/main_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_min_width">
+            <TextView android:textSize="@dimen/new_dialog_main_text" android:id="@id/item_content" android:lineSpacingMultiplier="1.2" style="@style/new_dialog_content_text_style" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

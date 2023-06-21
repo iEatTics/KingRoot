@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/shape_dialog_update_km_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dialog_bound_margin" android:minWidth="@dimen/dialog_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/request_dialog_padding" android:paddingRight="@dimen/request_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/request_dialog_title_min_height">
+        <ImageView android:layout_width="240.0dip" android:layout_height="240.0dip" android:src="@drawable/icon_update_km" android:scaleType="fitCenter" android:contentDescription="@string/attribute_content_description_image" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/dialog_km_desc_text" android:id="@id/km_dialog_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_dialog_content_tips1" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="20.0dip">
+        <com.kingcore.uilib.TextRoundCornerProgressBar android:id="@id/progressbar" android:background="@drawable/common_shadow_button_selector" android:layout_height="@dimen/button_height" android:layout_marginTop="@dimen/root_adapt_km_ad_margin_bottom" android:text="@string/km_installing" android:layout_centerHorizontal="true" app:rcProgress="0.0" app:rcMax="100.0" app:rcRadius="4.0dip" app:rcProgressColor="@color/green_1" app:rcBackgroundColor="@color/transparent" app:rcTextProgressColor="@color/shadow_button_text" app:rcTextProgressSize="@dimen/common_text" app:rcTextProgressMargin="10.0dip" app:rcTextProgress="@string/km_installing" style="@style/root_blue_shadow_button_style" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</LinearLayout>

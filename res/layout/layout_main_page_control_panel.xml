@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin">
+    <TextView android:textSize="@dimen/main_page_control_panel_title_text_size" android:textColor="@color/skin_main_panel_text_normal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/main_page_control_panel_title" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/white" android:id="@id/btn" android:background="@drawable/skin_main_panel_button_bg_normal" android:layout_height="50.0dip" android:layout_below="@id/title" android:layout_centerHorizontal="true" style="@style/common_shadow_button_style" skin:enable="true" />
+</RelativeLayout>

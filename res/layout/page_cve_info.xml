@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/cve_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_above="@id/open_btn_layout" android:layout_alignParentTop="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/open_btn_layout" android:layout_width="fill_parent" android:layout_height="@dimen/list_footer_bar_height" android:layout_marginTop="4.0dip" android:layout_alignParentBottom="true">
+        <Button android:id="@id/open_btn" android:layout_width="fill_parent" android:layout_height="@dimen/uninstall_height" android:layout_marginLeft="@dimen/uninstall_margin" android:layout_marginRight="@dimen/uninstall_margin" android:text="@string/security_protect_cve_card_button_desc" style="@style/root_blue_shadow_button_style"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </RelativeLayout>
+</RelativeLayout>

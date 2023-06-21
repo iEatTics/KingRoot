@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/top_panel" android:layout_width="fill_parent" android:layout_height="210.0dip">
+                <ImageView android:id="@id/topImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/advance_perm_main" android:scaleType="center" />
+                <TextView android:textSize="@dimen/text_size_2" android:textColor="@color/blue_1" android:id="@id/topPrimaryText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/advance_perm_main_page_desc_warning" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/menu_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" style="@style/card_view">
+                <View android:id="@id/main_divider" android:background="@color/divide_line" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+                <include android:id="@id/item_root_auth" android:layout_width="fill_parent" android:layout_height="72.0dip" layout="@layout/list_item_advance_perm" />
+                <include android:id="@id/divider_1" android:layout_marginLeft="60.0dip" android:layout_marginRight="@dimen/common_list_item_left_padding" style="@style/common_orientation_divider" layout="@layout/common_divider" />
+                <include android:id="@id/item_silent_install" android:layout_width="fill_parent" android:layout_height="72.0dip" layout="@layout/list_item_advance_perm" />
+                <include android:id="@id/divider_2" android:layout_marginLeft="60.0dip" android:layout_marginRight="@dimen/common_list_item_left_padding" style="@style/common_orientation_divider" layout="@layout/common_divider" />
+                <include android:id="@id/item_auto_boot" android:layout_width="fill_parent" android:layout_height="72.0dip" layout="@layout/list_item_advance_perm" />
+                <include android:id="@id/divider_3" android:layout_marginLeft="60.0dip" android:layout_marginRight="@dimen/common_list_item_left_padding" style="@style/common_orientation_divider" layout="@layout/common_divider" />
+                <include android:id="@id/item_default_settings" android:layout_width="fill_parent" android:layout_height="72.0dip" layout="@layout/list_item_advance_perm" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_gravity="center|top" android:id="@id/root_button_panel" android:visibility="gone" android:layout_width="248.0dip" android:layout_height="56.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+        <Button android:gravity="center" android:id="@id/root_button" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/advance_perm_click_to_root" style="@style/common_shadow_button_style"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </FrameLayout>
+</LinearLayout>

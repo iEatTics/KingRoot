@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/app_recommend_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_divider" android:background="@color/grey_6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="@dimen/common_text" android:textColor="@color/main_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:text="@string/app_download_recommend_title" />
+    <android.support.v7.widget.RecyclerView android:id="@id/app_recommend_list" android:background="@color/global_background_color2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+    <View android:id="@id/down_divider" android:background="@color/grey_6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

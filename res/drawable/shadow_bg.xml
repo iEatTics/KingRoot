@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#08474848" />
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0a474848" />
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0c474848" />
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0f474848" />
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="#11474848" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="#13474848" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="#15474848" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="#17474848" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#19474848" />
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#1b474848" />
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#30474848" />
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#1d474848" />
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="#20474848" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="#22474848" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="#24474848" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="#26474848" />
+            <padding android:bottom="@dimen/shadow_bg_item_size" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shadow_bg_item_radius" />
+            <solid android:color="@color/dialog_background" />
+        </shape>
+    </item>
+</layer-list>

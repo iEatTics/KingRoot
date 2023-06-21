@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/apps_market_main_app_item_left_right_padding" android:paddingRight="@dimen/apps_market_main_app_item_left_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/list_item_style_km">
+        <RelativeLayout android:id="@id/app_update_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/item_icon" android:layout_width="@dimen/app_list_item_icon_big" android:layout_height="@dimen/app_list_item_icon_big" android:layout_marginRight="16.0dip" android:src="@drawable/default_app" android:layout_centerVertical="true" android:contentDescription="@string/attribute_content_description_image" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/item_button" android:layout_toRightOf="@id/item_icon" android:layout_centerVertical="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/common_text" android:textColor="@color/main_title_text" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/App_Market_App_Name_Text_Style" />
+                    <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/orange_4" android:id="@id/item_important_version" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/important_update_text" style="@style/App_Market_App_Name_Text_Style" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:ellipsize="end" android:id="@id/item_origin_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/apps_market_text_margin_top" android:layout_marginRight="4.0dip" android:maxLines="1" />
+                    <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:ellipsize="end" android:id="@id/item_diff_szie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/apps_market_text_margin_top" android:maxLines="1" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.kingcore.uilib.TextRoundCornerProgressBar android:id="@id/item_button" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/App_Market_App_Download_Btn_Style" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="68.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/app_update_item_layout">
+            <com.kingcore.uilib.ExpandableTextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:ellipsize="end" android:id="@id/item_description2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:maxLines="1" />
+            <ImageView android:id="@id/expand_btn" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/down_expan" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/blue_1" android:id="@id/ignore_button_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="28.0dip" android:text="@string/ignore_update_button_text" android:layout_below="@id/item_description2" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white_1" android:gravity="center" android:id="@id/item_delete" android:background="@color/red_1" android:layout_width="96.0dip" android:layout_height="fill_parent" android:text="@string/app_download_task_delete" />
+</LinearLayout>

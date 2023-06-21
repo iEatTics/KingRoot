@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginTop="8.0dip" android:contentDescription="@string/attribute_content_description_header"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kingcore.uilib.TimeLineView android:id="@id/item_icon" android:layout_width="4.0dip" android:layout_height="fill_parent" app:up_line_visible="false" app:down_line_visible="false" app:circle_color="#ff99aeb9" />
+    <ImageView android:layout_gravity="center" android:id="@id/ellipsis_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ellipsis" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff99aeb9" android:id="@id/cve_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" style="@style/list_item_primary_title_style" />
+</LinearLayout>

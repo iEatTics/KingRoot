@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="17.0dip" android:paddingTop="20.0dip" android:paddingRight="17.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/dialog_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/game_box_dialog_big_title_icon_bg_w" android:layout_height="@dimen/game_box_dialog_big_title_icon_bg_h" android:src="@drawable/game_box_dialog_big_title_bg" />
+        <ImageView android:layout_gravity="center" android:id="@id/title_icon" android:layout_width="@dimen/game_box_dialog_big_title_icon_w" android:layout_height="@dimen/game_box_dialog_big_title_icon_h" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center|left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/dialog_title_text_small_size" android:textColor="@color/root_share_text" android:id="@id/title" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@android:string/unknownName" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

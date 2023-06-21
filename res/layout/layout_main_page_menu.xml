@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/page_left_right_with_shadow_padding" android:layout_marginRight="@dimen/page_left_right_with_shadow_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/security_protect" layout="@layout/list_view_item" />
+    <include android:layout_marginLeft="@dimen/common_list_item_left_padding" android:layout_marginRight="@dimen/common_list_item_left_padding" style="@style/common_orientation_divider" layout="@layout/common_divider" />
+    <include android:id="@id/permission_mgr" layout="@layout/list_view_item" />
+</LinearLayout>

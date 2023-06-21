@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/key_word_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/item_clear_key_word_history">
+        <android.support.v7.widget.RecyclerView android:id="@id/app_search_key_word_history_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" />
+    </ScrollView>
+    <Button android:textColor="@color/black_1" android:id="@id/item_clear_key_word_history" android:background="@drawable/hot_word_white_selector" android:text="@string/app_search_clear_keyword_history" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/common_button_style" />
+</RelativeLayout>

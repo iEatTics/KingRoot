@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/apps_market_main_app_item_left_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="72.0dip" style="@style/list_item_style_km"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kingroot.common.uilib.ShapedImageView android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/default_app" android:scaleType="centerCrop" android:contentDescription="@string/attribute_content_description_image" app:shape_mode="round_rect" app:round_radius="@dimen/apps_market_topic_item_corner_radius" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/common_text" android:textColor="@color/main_title_text" android:id="@id/main_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/unknownName" />
+        <TextView android:textSize="@dimen/common_list_item_content_sub_text_size" android:textColor="@color/sub_title_text" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/unknownName" />
+    </LinearLayout>
+</LinearLayout>

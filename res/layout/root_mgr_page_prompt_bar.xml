@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/open_prompt" android:background="@color/card_background" android:paddingTop="@dimen/operation_bar_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/green_0" android:gravity="center" android:id="@id/item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/root_authorization_open_prompt" />
+    <Button android:textSize="15.0sp" android:gravity="center" android:id="@id/item_button" android:layout_width="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/permission_btn_open" style="@style/root_blue_shadow_button_style" />
+</LinearLayout>

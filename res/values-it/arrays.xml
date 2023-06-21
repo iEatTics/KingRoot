@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kr4_root_tips">
+        <item>È normale che i dispositivi si riavviino durante il processo di Root</item>
+        <item>Registrare Kingroot come modulo di sistema potrebbe migliorare la stabilità</item>
+        <item>Per la garanzia del dispositivo, si prega prima di pulire completamente le autorità di Root</item>
+        <item>Dopo il Root, potrai disinstallare le applicazioni pre-installate</item>
+        <item>Root necessario per bloccare avvii automatici</item>
+        <item>Dopo il Root, potresti ottimizzare il dispositivo con \"kingRoot\"</item>
+    </string-array>
+</resources>

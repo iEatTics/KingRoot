@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_part" layout="@layout/root_bottom_top" />
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/data_part" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/root_bottom_data_part_margin_left" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/root_bottom_data_part_margin_left" android:layout_below="@id/top_part">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/left_part" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/root_data_text_size" android:textColor="@color/blue_1" android:id="@id/time_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr4_time_cost_average" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/center_part" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include android:layout_gravity="center" android:id="@id/star_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/kr4_success_rate_view" />
+            <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/kr4_success_rate" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/right_part" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/root_data_text_size" android:textColor="@color/blue_1" android:id="@id/success_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/root_success_count_totally" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/center_part_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_bottom_top_part_margin_top" android:layout_below="@id/top_part" android:layout_centerHorizontal="true">
+        <TextView android:textSize="26.669983sp" android:textColor="@color/blue_1" android:layout_gravity="center_horizontal" android:id="@id/time_cost_c" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/sub_description_text" android:textColor="@color/sub_title_text" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr4_time_cost_average" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/data_part" layout="@layout/root_process_base_guide_bottom" />
+</RelativeLayout>
